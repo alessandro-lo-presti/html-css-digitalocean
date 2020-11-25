@@ -1,4 +1,21 @@
+.box {
+  /* da togliere */
+  height: 100px;
+  border: 1px solid black;
+}
+
 /* header */
-._blue {
-  color: #337abd;
+.header_top nav {
+  margin: 0;
+}
+
+/* jumbtron */
+.jumbtron {
+  padding: 60px 0;
+  /* da togliere */
+  background-color: blue;
+}
+
+.jumbtron .box {
+  background-color: green;
 }
