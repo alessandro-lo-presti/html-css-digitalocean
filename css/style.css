@@ -71,15 +71,6 @@ ul {
   font-size: 50px;
 }
 
-/* main */
-main a {
-  color: #0080ff;
-}
-
-main a:hover {
-  color: #0080ff;
-}
-
 /* started_now */
 .started_now {
   padding: 30px;
@@ -135,22 +126,28 @@ p.tos {
 
 
 /* main */
+main a {
+  color: #0080ff;
+}
+
+main a:hover {
+  color: #0080ff;
+}
+
 section {
   padding: 60px;
-  /* da togliere */
-  border-bottom: 1px solid black
+  background-color: #f3f5f9;
 }
 
 /* costumers */
 .costumers img {
-  max-height: 70px;
-  max-width: 160px;
+  max-height: 90px;
   vertical-align: middle;
 }
 
 .costumers .splunk {
-  margin-top: 20px;
-  max-height: 35px;
+  margin-top: 23px;
+  max-height: 50px;
 }
 
 .costumers a {
