@@ -166,6 +166,10 @@ section h2 {
   font-weight: 600;
 }
 
+section .row:first-child p {
+  font-size: 20px;
+}
+
 /* costumers */
 .costumers h2 {
   color: #6f7b97;
@@ -189,10 +193,6 @@ section h2 {
 }
 
 /* deploy */
-.deploy .row:first-child p {
-  font-size: 20px;
-}
-
 .deploy .row:last-child > div {
   margin-top: 60px;
 }
@@ -219,6 +219,21 @@ section h2 {
 
 .deploy .card p {
   font-size: 15px;
+}
+
+/* developers */
+.developers .row div:nth-child(2) {
+  margin: 30px 0;
+}
+
+.developers img {
+  width: 90%;
+  max-width: 600px;
+}
+
+.developers span {
+  color: #031c4e;
+  font-weight: 600;
 }
 
 
