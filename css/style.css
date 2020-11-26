@@ -10,6 +10,10 @@
   background-color: yellow;
 }
 
+body {
+  font-family: 'Open Sans', sans-serif;
+}
+
 ul {
   list-style: none;
 }
@@ -52,8 +56,9 @@ ul {
 /* jumbtron */
 .jumbtron {
   padding: 60px 0;
-  /* da togliere */
-  background-color: blue;
+  color: white;
+  background-image: url("../img/bg-home-1.jpg");
+  background-size: cover;
 }
 
 /* main */
