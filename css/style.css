@@ -16,11 +16,12 @@ ul {
 
 /* header */
 .header_top {
-  height: 100px;
-  line-height: 100px;
+  height: 80px;
+  line-height: 80px;
 }
 
-.header-top .logo {
+#logo {
+  width: 200px;
   vertical-align: middle;
 }
 
@@ -31,6 +32,10 @@ ul {
 .header_top li {
   display: inline-block;
   padding-right: 20px;
+}
+
+.header_top a {
+  color: black;
 }
 
 /* jumbtron */
