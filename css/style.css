@@ -287,6 +287,50 @@ section .row:first-child p {
   border-bottom: 1px solid white;
 }
 
+/* development */
+.development {
+  background-color: #f3f5f9;
+}
+
+.development .row:first-child {
+  margin-bottom: 60px;
+}
+
+.development .row:last-child > div {
+  padding: 80px 30px;
+  background-color: white;
+}
+
+.development .row:last-child div div:first-child {
+  width: 100%;
+  position: relative;
+}
+
+.development .author {
+  margin-bottom: 40px;
+}
+
+.development img {
+  width: 90%;
+  min-width: 160px;
+  max-width: 280px;
+  position: absolute;
+  top: 50%;
+  bottom: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.development .row > div p{
+  margin-top: 40px;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.development h4 {
+  font-weight: bold;
+  color: black
+}
+
 /* footer */
 .footer-bottom {
   /* da togliere */
