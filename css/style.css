@@ -176,7 +176,15 @@ section h2 {
 }
 
 /* deploy */
-.deploy li {
+.deploy .row:last-child > div {
+  margin-top: 60px;
+}
+
+.deploy ul {
+  margin-left: 100px;
+}
+
+.deploy li span {
   padding: 5px;
   border-left: 2px solid lightgrey;
 }
@@ -190,13 +198,21 @@ section h2 {
 }
 
 /* media query */
+@media screen and (max-width: 992px) {
+
+  /* costumers */
+  .deploy ul {
+    margin-left: 0;
+    padding-left: 0;
+  }
+
+}
+
 @media screen and (max-width: 768px) {
 
   /* jumbotron */
   .main_h {
     font-size: 40px;
   }
-
-  /* costumers */
 
 }
