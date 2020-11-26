@@ -139,6 +139,18 @@ ul {
   text-decoration: underline;
 }
 
+.i_button {
+  position: relative;
+}
+
+.i_button img {
+  width: 20px;
+  position: absolute;
+  top: 50%;
+  left: 10px;
+  transform: translateY(-50%);
+}
+
 /* main */
 main a {
   color: #0080ff;
