@@ -339,6 +339,7 @@ section .row:first-child p {
 }
 
 .footer_top h2 {
+  margin-top: 0;
   margin-bottom: 30px;
   font-size: 30px;
   font-weight: 600;
@@ -351,6 +352,32 @@ section .row:first-child p {
 .footer_bottom {
   padding: 60px;
   background-color: #031c4e;
+  color: #687490;
+}
+
+.footer_bottom li {
+  margin-bottom: 10px;
+}
+
+.footer_bottom h3 {
+  color: white;
+}
+
+.footer_bottom h4 {
+  color: #8b94a9;
+}
+
+.footer_bottom ul {
+  padding-left: 0;
+}
+
+.footer_bottom a {
+  color: #8b94a9;
+}
+
+.social a {
+  font-size: 25px;
+  padding-right: 10px;
 }
 
 /* media query */
