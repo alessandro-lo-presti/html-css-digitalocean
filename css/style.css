@@ -140,6 +140,14 @@ section {
 }
 
 /* costumers */
+.costumers h2 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color: grey;
+  font-size: 18px;
+  text-transform: uppercase;
+}
+
 .costumers img {
   max-height: 90px;
   vertical-align: middle;
@@ -150,8 +158,8 @@ section {
   max-height: 50px;
 }
 
-.costumers a {
-  margin-top: 10px;
+.costumers .row:nth-child(2) {
+  margin-bottom: 30px;
 }
 
 
