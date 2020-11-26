@@ -61,6 +61,49 @@ ul {
   background-size: cover;
 }
 
+.started_now {
+  padding: 30px;
+  color: black;
+  background-color: white;
+  border-radius: 10px;
+}
+
+.started_now div:not(div:last-child) {
+  margin-bottom: 10px;
+}
+
+.started_now div {
+  padding: 5px;
+  border-radius: 3px;
+}
+
+.started_now span {
+  color: #0049ff;
+}
+
+.started_now .text_field {
+  color: grey;
+  border: 1px solid lightgrey;
+}
+
+.started_now a:hover {
+  text-decoration: none;
+}
+
+.btn_google_white {
+  background-color: white;
+  box-shadow: 0 0 10px lightgrey;
+}
+
+.btn_google_blue {
+  background-color: #0049ff;
+}
+
+.btn_google_blue a{
+  color: white;
+}
+
+
 /* main */
 section {
   padding: 60px;
