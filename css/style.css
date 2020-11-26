@@ -1,15 +1,3 @@
-  /* da togliere */
-.debug .box {
-  min-height: 100px;
-  border: 1px solid black;
-  background-color: green;
-}
-
-/* da togliere */
-.debug .box .box {
-  background-color: yellow;
-}
-
 body {
   font-family: 'Open Sans', sans-serif;
 }
@@ -393,6 +381,51 @@ section .row:first-child p {
   padding-right: 10px;
 }
 
+/* chat */
+.chat {
+  position: fixed;
+  bottom: 30px;
+  right: 30px;
+}
+
+.chat > div:first-child {
+  height: 50px;
+  width: 60px;
+  background-color: #006aff;
+  border-radius: 3px;
+  box-shadow: 0 0 10px lightgrey;
+}
+
+.chat img {
+  height: 50px;
+  width: 60px;
+}
+
+.notify {
+  width: 20px;
+  padding: 1px 10px 1px 5px;
+  position: fixed;
+  bottom: 68px;
+  right: 20px;
+  border-radius: 50%;
+  border: 4px solid white;
+  background-color: #ff0001;
+  color: white;
+  font-size: 10px;
+  box-shadow: 0 0 10px lightgrey;
+}
+
+.msg {
+  width: 220px;
+  padding: 10px 0px 10px 10px;
+  position: fixed;
+  bottom: 28px;
+  right: 110px;
+  background-color: white;
+  border-radius: 3px;
+  box-shadow: 0 0 10px lightgrey;
+}
+
 /* media query */
 @media screen and (min-width: 1200px) {
 
@@ -457,6 +490,23 @@ section .row:first-child p {
   /* services */
   .services {
     font-size: 10px;
+  }
+
+  /* chat */
+  .chat {
+    bottom: 100px;
+    left: 30px;
+  }
+
+
+  .notify {
+    bottom: 135px;
+    left: 80px;
+  }
+
+  .msg {
+    bottom: 28px;
+    left: 30px;
   }
 
 
