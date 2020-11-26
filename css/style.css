@@ -21,7 +21,6 @@ ul {
 /* button */
 .btn_white {
   background: white;
-  color: #0080ff;
 }
 
 /* header */
@@ -70,68 +69,75 @@ ul {
 }
 
 .jb_fc {
-  padding-right: 70px;
   font-size: 18px;
-  font-weight: 500px;
+  font-weight: 500;
 }
 
 .main_h {
   font-size: 50px;
+  font-weight: 600;
 }
 
-/* started_now */
-.started_now {
-  padding: 30px;
+/* jumbotron-login */
+.jumbotron_login {
+  padding: 0 10px;
   color: black;
-  background-color: white;
   border-radius: 5px;
 }
 
-.started_now div {
-    margin-bottom: 10px;
-  padding: 5px;
+.jumbotron_login > div {
+  padding: 30px;
+  background-color: white;
   border-radius: 3px;
 }
 
-.started_now p {
+.jumbotron_login p {
   font-size: 18px;
+  font-weight: bold;
 }
 
-.started_now span {
+.jumbotron_login span {
   color: #0049ff;
 }
 
-.started_now .text_field {
-  color: grey;
+.jumbotron_login .row:last-child  div {
+  margin-bottom: 10px;
+}
+
+.jumbotron_login input:not([type="submit"]) {
+  width: 100%;
+  border-radius: 5px;
+  padding: 5px;
   border: 1px solid lightgrey;
 }
 
-.started_now a:hover {
-  text-decoration: none;
+.jumbotron_login input:not([type="submit"]):hover,
+.jumbotron_login input:not([type="submit"]):active,
+.jumbotron_login input:not([type="submit"]):focus{
+  border: 1px solid #0049ff;
 }
 
-.btn_google_white {
-  background-color: white;
+.jumbotron_login .btn{
+  width: 100%;
+  font-weight: 600;
+}
+
+.jumbotron_login .btn_white {
   box-shadow: 0 0 10px lightgrey;
 }
 
-.btn_google_blue {
+.jumbotron_login .btn_blue {
   background-color: #0049ff;
-}
-
-.btn_google_blue a{
   color: white;
 }
 
-p.tos {
+.jumbotron_login .terms {
   font-size: 13px;
-  font-weight: 500;
 }
 
-.tos span {
+.jumbotron_login .terms span{
   text-decoration: underline;
 }
-
 
 /* main */
 main a {
