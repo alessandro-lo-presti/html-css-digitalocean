@@ -71,6 +71,15 @@ ul {
   font-size: 50px;
 }
 
+/* main */
+main a {
+  color: #0080ff;
+}
+
+main a:hover {
+  color: #0080ff;
+}
+
 /* started_now */
 .started_now {
   padding: 30px;
@@ -132,6 +141,23 @@ section {
   border-bottom: 1px solid black
 }
 
+/* costumers */
+.costumers img {
+  max-height: 70px;
+  max-width: 160px;
+  vertical-align: middle;
+}
+
+.costumers .splunk {
+  margin-top: 20px;
+  max-height: 35px;
+}
+
+.costumers a {
+  margin-top: 10px;
+}
+
+
 /* footer */
 .footer-bottom {
   /* da togliere */
@@ -146,5 +172,7 @@ section {
   .main_h {
     font-size: 40px;
   }
+
+  /* costumers */
 
 }
