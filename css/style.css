@@ -279,11 +279,11 @@ section .row:first-child p {
   text-decoration: none;
 }
 
-.services .row:not(:first-child) > div {
+.services .row:not(:first-child) .wrapper > div {
   padding: 10px;
 }
 
-.services .row:not(:first-child) > div:not(:last-child) {
+.services .row:not(:first-child) > div:not(:last-child) .wrapper {
   border-bottom: 1px solid white;
 }
 
@@ -300,6 +300,10 @@ section .row:first-child p {
   /* services */
   #border_less_lg {
     border-bottom: none;
+  }
+
+  .services .wrapper {
+    margin: 0 5px;
   }
 
 }
