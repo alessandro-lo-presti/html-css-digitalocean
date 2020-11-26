@@ -61,20 +61,32 @@ ul {
   background-size: cover;
 }
 
+.jb_fc {
+  padding-right: 70px;
+  font-size: 18px;
+  font-weight: 500px;
+}
+
+.main_h {
+  font-size: 50px;
+}
+
+/* started_now */
 .started_now {
   padding: 30px;
   color: black;
   background-color: white;
-  border-radius: 10px;
-}
-
-.started_now div:not(div:last-child) {
-  margin-bottom: 10px;
+  border-radius: 5px;
 }
 
 .started_now div {
+    margin-bottom: 10px;
   padding: 5px;
   border-radius: 3px;
+}
+
+.started_now p {
+  font-size: 18px;
 }
 
 .started_now span {
@@ -103,6 +115,15 @@ ul {
   color: white;
 }
 
+p.tos {
+  font-size: 13px;
+  font-weight: 500;
+}
+
+.tos span {
+  text-decoration: underline;
+}
+
 
 /* main */
 section {
@@ -116,4 +137,14 @@ section {
   /* da togliere */
   height: 500px;
   background-color: blue;
+}
+
+/* media query */
+@media screen and (max-width: 768px) {
+
+  /* jumbotron */
+  .main_h {
+    font-size: 40px;
+  }
+
 }
