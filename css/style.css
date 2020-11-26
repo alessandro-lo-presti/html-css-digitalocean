@@ -154,10 +154,6 @@ section {
   font-weight: 500;
 }
 
-section:nth-child(odd) {
-  background-color: #f3f5f9;
-}
-
 section h2 {
   margin-top: 0px;
   margin-bottom: 30px;
@@ -171,6 +167,10 @@ section .row:first-child p {
 }
 
 /* costumers */
+.costumers {
+  background-color: #f3f5f9;
+}
+
 .costumers h2 {
   color: #6f7b97;
   font-size: 16px;
@@ -222,6 +222,10 @@ section .row:first-child p {
 }
 
 /* developers */
+.developers {
+  background-color: #f3f5f9;
+}
+
 .developers .row div:nth-child(2) {
   margin: 30px 0;
 }
@@ -233,6 +237,21 @@ section .row:first-child p {
 
 .developers span {
   color: #031c4e;
+  font-weight: 600;
+}
+
+/* features */
+.features .card{
+  font-size: 15px;
+}
+
+.features .row > div:not(:last-child) .card {
+  margin-bottom: 30px;
+}
+
+.features .card h3{
+  color: #031c4e;
+  font-size: 20px;
   font-weight: 600;
 }
 
@@ -260,6 +279,11 @@ section .row:first-child p {
   /* jumbotron */
   .main_h {
     font-size: 40px;
+  }
+
+  /* deploy */
+  .deploy .row > div:last-child {
+    margin-top: 30px;
   }
 
 }
