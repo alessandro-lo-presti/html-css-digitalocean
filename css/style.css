@@ -14,6 +14,12 @@ ul {
   list-style: none;
 }
 
+/* button */
+.btn_white {
+  background: white;
+  color: #0080ff;
+}
+
 /* header */
 .header_top {
   height: 80px;
@@ -36,6 +42,11 @@ ul {
 
 .header_top a {
   color: black;
+}
+
+.header_top .btn_white {
+  border: 1px solid #0080ff;
+  color: #0080ff;
 }
 
 /* jumbtron */
