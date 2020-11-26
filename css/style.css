@@ -54,6 +54,12 @@ ul {
   color: #0080ff;
 }
 
+.hamburger_menu i{
+  cursor: pointer;
+  color: #0069FF;
+  font-size: 120%;
+}
+
 /* jumbtron */
 .jumbtron {
   margin-top: 80px;
