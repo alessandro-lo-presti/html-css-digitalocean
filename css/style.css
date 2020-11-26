@@ -332,10 +332,25 @@ section .row:first-child p {
 }
 
 /* footer */
-.footer-bottom {
-  /* da togliere */
-  height: 500px;
-  background-color: blue;
+.footer_top {
+  padding: 60px 0;
+  background-image: linear-gradient(to bottom, #0048c6, #013ebb, #0133b0, #0129a4, #001e99);
+  color: white;
+}
+
+.footer_top h2 {
+  margin-bottom: 30px;
+  font-size: 30px;
+  font-weight: 600;
+}
+
+.footer_top .btn {
+  font-weight: 600;
+}
+
+.footer_bottom {
+  padding: 60px;
+  background-color: #031c4e;
 }
 
 /* media query */
