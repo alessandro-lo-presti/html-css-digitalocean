@@ -150,7 +150,6 @@ main a:hover {
 
 section {
   padding: 60px;
-  font-size: 20px;
   color: #5c6a88;
   font-weight: 500;
 }
@@ -170,8 +169,8 @@ section h2 {
 /* costumers */
 .costumers h2 {
   color: #6f7b97;
-  font-size: 18px;
-  font-weight: normal;
+  font-size: 16px;
+  font-weight: 600;
   text-transform: uppercase;
 }
 
@@ -190,6 +189,10 @@ section h2 {
 }
 
 /* deploy */
+.deploy .row:first-child p {
+  font-size: 20px;
+}
+
 .deploy .row:last-child > div {
   margin-top: 60px;
 }
@@ -198,9 +201,24 @@ section h2 {
   margin-left: 100px;
 }
 
-.deploy li span {
-  padding: 5px;
+.deploy li {
+  padding: 15px 5px;
+  font-size: 20px;
   border-left: 2px solid lightgrey;
+}
+
+.deploy .card:first-child {
+  margin-bottom: 30px;
+}
+
+.deploy .card h3 {
+  color: #031c4e;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+.deploy .card p {
+  font-size: 15px;
 }
 
 
