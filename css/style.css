@@ -161,7 +161,7 @@ main a:hover {
 }
 
 section {
-  padding: 60px;
+  padding: 60px 0;
   color: #5c6a88;
   font-weight: 500;
 }
@@ -191,12 +191,13 @@ section .row:first-child p {
 }
 
 .costumers img {
-  max-height: 90px;
+  max-height: 80px;
+  max-width: 160px;
   vertical-align: middle;
 }
 
-.costumers .splunk {
-  margin-top: 23px;
+#splunk {
+  margin-top: 18px;
   max-height: 50px;
 }
 
@@ -362,7 +363,7 @@ section .row:first-child p {
 }
 
 .footer_bottom {
-  padding: 60px;
+  padding: 60px 0;
   background-color: #031c4e;
   color: #687490;
 }
@@ -406,9 +407,20 @@ section .row:first-child p {
 
 }
 
+@media screen and (max-width: 1200px) {
+
+  /* costumers */
+  .costumers img {
+    height: 80px;
+  }
+
+}
+
 @media screen and (max-width: 992px) {
 
   /* costumers */
+
+  /* deploy */
   .deploy ul {
     margin-left: 0;
     padding-left: 0;
@@ -425,6 +437,16 @@ section .row:first-child p {
   /* jumbotron */
   .main_h {
     font-size: 40px;
+  }
+
+  /* costumers */
+  .costumers img {
+    height: 50px;
+  }
+
+  #splunk {
+    margin-top: 13px;
+    height: 30px;
   }
 
   /* deploy */
