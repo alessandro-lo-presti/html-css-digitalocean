@@ -171,7 +171,7 @@ section .row:first-child p {
   background-color: #f3f5f9;
 }
 
-.costumers h2 {
+.costumers h3 {
   color: #6f7b97;
   font-size: 16px;
   font-weight: 600;
@@ -255,6 +255,37 @@ section .row:first-child p {
   font-weight: 600;
 }
 
+/* services */
+.services {
+   background-image: linear-gradient(to bottom, #0048c6, #013ebb, #0133b0, #0129a4, #001e99);
+   color: white;
+   font-weight: bold;
+}
+
+.services h2 {
+  color: white;
+}
+
+.services span {
+  color: #bbc8ea;
+}
+
+.services a {
+  color: #00d3d1;
+}
+
+.services a:hover {
+  color: #00d3d1;
+  text-decoration: none;
+}
+
+.services .row:not(:first-child) > div {
+  padding: 10px;
+}
+
+.services .row:not(:first-child) > div:not(:last-child) {
+  border-bottom: 1px solid white;
+}
 
 /* footer */
 .footer-bottom {
@@ -264,6 +295,15 @@ section .row:first-child p {
 }
 
 /* media query */
+@media screen and (min-width: 1200px) {
+
+  /* services */
+  #border_less_lg {
+    border-bottom: none;
+  }
+
+}
+
 @media screen and (max-width: 992px) {
 
   /* costumers */
@@ -276,6 +316,10 @@ section .row:first-child p {
 
 @media screen and (max-width: 768px) {
 
+  section h2 {
+    font-size: 24px;
+  }
+
   /* jumbotron */
   .main_h {
     font-size: 40px;
@@ -285,5 +329,11 @@ section .row:first-child p {
   .deploy .row > div:last-child {
     margin-top: 30px;
   }
+
+  /* services */
+  .services {
+    font-size: 10px;
+  }
+
 
 }
