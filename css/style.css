@@ -136,15 +136,28 @@ main a:hover {
 
 section {
   padding: 60px;
+  font-size: 20px;
+  color: #5c6a88;
+  font-weight: 500;
+}
+
+section:nth-child(odd) {
   background-color: #f3f5f9;
+}
+
+section h2 {
+  margin-top: 0px;
+  margin-bottom: 30px;
+  color: #031c4e;
+  font-size: 30px;
+  font-weight: 600;
 }
 
 /* costumers */
 .costumers h2 {
-  margin-top: 0px;
-  margin-bottom: 30px;
-  color: grey;
+  color: #6f7b97;
   font-size: 18px;
+  font-weight: normal;
   text-transform: uppercase;
 }
 
@@ -160,6 +173,12 @@ section {
 
 .costumers .row:nth-child(2) {
   margin-bottom: 30px;
+}
+
+/* deploy */
+.deploy li {
+  padding: 5px;
+  border-left: 2px solid lightgrey;
 }
 
 
